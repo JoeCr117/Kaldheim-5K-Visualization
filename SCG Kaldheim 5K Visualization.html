@@ -134,7 +134,7 @@
                 <ol>
                     <li>Do any Decks noticeably outperform others?</li>
                     <li>Do any Cards noticeably outperform others?</li>
-                    <li>Is there a correlation between Win % and card selection?</li>
+                    <li>Is there a correlation between Win % and Card Selection?</li>
                 </ol>
             </section>
 
@@ -143,62 +143,126 @@
 
                 <div class="entry">
                     <img src="Win Loss Comparisons.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        These first two visualizations are a simple Win Loss and Ratio comparison between the decks. This visualization shows what
+                        decks had the best rates in the tournament as a whole, meaning we are not concidering the number of players playing the deck
+                        or how far in the tournament they got (though details on demand gives us that information). We see here what archetypes stand
+                        out as net winners in the tournament.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Rank Vs Play Frequency.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        The next visualization shows us the average rank a deck archetype obtained, labled by the number of players playing the
+                        specific deck archetype. We can see the gradual slope as the average rank increases, but the number of players playing the
+                        archetypes is sporadic, telling us no clear deck that stands above all others, all though some are more popular than others.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Play Rate Vs Win %.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        This visualization dispalys deck archetype popularity and its correponding win percentage. We see that the most popular decks
+                        are the ones with a positive win percentage, but also decks with a lower count (meaning decks that are new brews, solo brews,
+                        or of a niche archetype) are spread around the win percentage axis. This reinforces the fact that there is a good variaty of
+                        archetypes capable of being viable in the current meta. This plot will be used multiple times in the future to see how deck
+                        popularity and win percentage are coupled with card selection.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Card Popularity BarChart.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        It is with this visualization that we break into a story of cards. Here we can visually compare a cards popularity among
+                        others in this tournament...and we see one such card stand tall above its peers. Bonecrusher Giant has been a subject of
+                        scrutiny for a while now, with critiques that "it does to much" and "has to much power for a single card". This visualization
+                        only shows us that...people believe those ideas. But is it true?
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Card Popularity Plot.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        This visualization seems like a mess but with Tableaus interactive filtering it dispalys alot of information. This plot is
+                        used later to show card popularity by deck archetype. Still though we see that there are a collection of cards that have both
+                        a large play rate and card count. This visualization is more usefull in a dashboard view with multiple visualizations because
+                        it can better show the hard upper bound to a cards playability (a deck can only have 4 of one card). This allows us to see
+                        that when a card is played, how IMPORTANT the player base believes the card is to the decks success. Again
+                        though...Bonecrusher Giant stands above all others.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Card in Deck % Pie.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        In this visualization we can capture a cards play percentage in each deck. This has the effect of telling us what archetypes
+                        rely on and use the card most frequently. Used later in a dashboard view.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Card Popularity vs Win Percentage.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        Here we plot a cards win percentage against its popularity, just as we did before with the decks. This is another
+                        visualization that will be used in a dashboard view down the line. But because a card can appear in multiple decks it shows a
+                        better representation of a cards influence in this meta. You can see a similar shape to the deck win percentage vs popularity,
+                        with the right shift off center. This is due to the fact that a player even if they drop out in round 4 or the semi finals,
+                        will have a positive win rate. That is not to say that there should be a more true center, what it means is there is a valid
+                        bias in the direction of a card seeing more wins if its playing well. So what is important is to see how the cards appear
+                        relative to one another. Can you guess who is at the top of this plot!?
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Card % By Deck Type.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        Before we took a card and saw what decks played played it by percentage. In this visualization we take a deck archetype and
+                        break it down to the cards in it by percentage. From this visualization we can see what cards in a deck archetype are
+                        fundamental to what makes the archetype what it is.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Card Effectiveness and Deck Popularity.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        This dashboard is a collection of visualizations, this has the power to answer harder and more interesting questions than
+                        single visualizations ever could. In this particular image, the linked filters can give us a better understaning of what a
+                        cards impact is in these decks. We select Bonecrusher Giant and select the top 4 decks that play it the most, and we see they
+                        have "very good" win rates. Also we can see other cards that are contributing the most with Bonecrusher Giant to the win
+                        percentage.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Per Card Per Deck Effectiveness.png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        In this dashboard view we select multiple decks and see how their cards stack up in popularity and win percentage. We see
+                        winning decks just play the stong cards, with the most popular one being Bonecrusher Giant.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <img src="Per Card Per Deck Effectiveness(2).png" />
-                    <p class="caption">ENTER IMAGE CAPTION HERE.</p>
+                    <p class="caption">
+                        We in the same dashboard looking to answer the question on everyones mind. How does Bonecrusher Giant effect the decks its
+                        played in. Selecting only Bonecrusher Giant from the card pie reveals that the decks that play it are very...very favored to
+                        win. The plot on the right only tells us information for the single card, and its information we already know. Bonecrusher
+                        Giant is very popular, and a very strong card this season.
+                    </p>
                 </div>
 
                 <div class="entry">
                     <h3>Summary</h3>
-                    <p>WRITE FINAL SUMMARY HERE.</p>
+                    <p>
+                        The visualizations of this tournament are a first look at how results data can be visualized and used to guage the MTG
+                        metagame. Following the steps of EDA we discovered the power of Bonecrusher Giant, visually encoded popularity against win
+                        percetage for decks and their cards, finally we got to see how a cards presense in a deck affected the outcome (though there
+                        still might be unknown variables). Correlation does not equal causation is a common saying among data scientists, I think
+                        Bonecrusher Giant wants to have a word with those data scientists!<br /><br />
+                        Further work would be to ask questions and visualize deck matchups, see how land count affects win rate, and what affect being
+                        on the play/draw has on the games outcome (if that data is available anywhere).
+                    </p>
                 </div>
             </section>
         </div>
